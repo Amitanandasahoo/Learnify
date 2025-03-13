@@ -1,0 +1,41 @@
+.About{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.About-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.About-right{
+    flex-basis: 56%;
+}
+.about-img{
+    width: 80%;
+    border-radius: 10px;
+}
+.play-icon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%,-50%);
+}
+.About h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #0174BC;
+}
+.About h2{
+    font-size: 35px;
+    color: #07A8DD;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.About p{
+    margin-bottom: 15px;
+
+}
